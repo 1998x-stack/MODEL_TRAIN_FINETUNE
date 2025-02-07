@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type subject_classify_zh --language zh --choose_finetune 1 --device_ids 3 --default_size small --num_epochs 25 --batch_size 16 --lr 2e-5 > logs/subject_classify_zh_finetune.log 2>&1 &

@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type is_valid_zh1 --language zh --choose_finetune 0 --device_ids 2 --default_size small --num_epochs 25 --batch_size 32 --lr 2e-5 > logs/is_valid_zh1.log 2>&1 &

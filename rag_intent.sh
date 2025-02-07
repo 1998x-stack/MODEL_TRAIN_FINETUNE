@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type rag_intent --language zh --choose_finetune 0 --device_ids 3 --default_size small --num_epochs 40 --batch_size 16 --lr 2e-5 > logs/rag_intent_0627.log 2>&1 &

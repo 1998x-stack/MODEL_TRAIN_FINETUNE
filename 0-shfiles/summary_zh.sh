@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type summary_zh --language zh --choose_finetune 0 --device_ids 2 --default_size small --num_epochs 30 --batch_size 32 --lr 2e-5 > logs/summary_zh.log 2>&1 &

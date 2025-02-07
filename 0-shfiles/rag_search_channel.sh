@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type rag_search_channel --language zh --choose_finetune 0 --device_ids 3 --default_size small --num_epochs 25 --batch_size 20 --lr 3e-5 > logs/rag_search_channel.log 2>&1 &

@@ -1,0 +1,1 @@
+nohup python main.py --method_type fasttext --model_type rag_is_search --language zh --choose_finetune 0 --device_ids 3 --default_size small --num_epochs 20 --batch_size 16 --lr 3e-5 > logs/rag_is_search_fasttext.log 2>&1 &

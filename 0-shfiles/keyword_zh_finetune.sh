@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type keyword_zh --language zh --choose_finetune 1 --device_ids 3 --default_size small --num_epochs 6 --batch_size 16 --lr 1e-5 > logs/keyword_zh_finetune.log 2>&1 &

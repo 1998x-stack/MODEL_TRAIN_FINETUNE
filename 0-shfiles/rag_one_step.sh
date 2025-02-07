@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type rag_one_step --language zh --choose_finetune 0 --device_ids 3 --default_size small --num_epochs 20 --batch_size 16 --lr 3e-5 > logs/rag_one_step.log 2>&1 &

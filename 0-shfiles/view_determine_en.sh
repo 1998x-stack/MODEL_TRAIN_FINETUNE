@@ -1,0 +1,1 @@
+nohup python main.py --method_type t5 --model_type view_determine_en --language en --choose_finetune 0 --device_ids 2 --default_size small --num_epochs 25 --batch_size 24 --lr 2e-5 > logs/view_determine_en.log 2>&1 &
