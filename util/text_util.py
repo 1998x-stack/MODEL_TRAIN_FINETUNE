@@ -128,9 +128,10 @@ def calculate_rouge_scores(reference_text: str, generated_text: str) -> dict:
     rouge_scores = rouge_scorer_instance.score(reference_text, generated_text)
     return rouge_scores
 
-# 示例：计算ROUGE分数
-example_scores = calculate_rouge_scores(
-    'The quick brown fox jumps over the lazy dog',
-    'The quick brown dog jumps on the log.'
-)
-print(f"ROUGE分数: {example_scores}")
+if __name__ == '__main__':
+    # 示例：计算ROUGE分数
+    example_scores = calculate_rouge_scores(
+        'The quick brown fox jumps over the lazy dog',
+        'The quick brown dog jumps on the log.'
+    )
+    print(f"ROUGE分数: {example_scores}")

@@ -1,6 +1,8 @@
 data/*
 models/*
 logs/*
+verification_data/*
+old_programs/*
 ./__pycache__
 */__pycache__
-verification_data/*
+*/__pycache__/__pycache__

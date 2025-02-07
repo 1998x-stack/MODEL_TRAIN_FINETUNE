@@ -1,0 +1,9 @@
+lingua-language-detector
+pandas==2.2.3
+requests==2.32.3
+rouge_score==0.1.2
+scikit_learn==1.6.1
+tensorboardX==2.6.2.2
+torch==2.5.1
+tqdm==4.66.6
+transformers==4.47.0
